@@ -1,0 +1,1 @@
+django-templatetags-bundle was written by Damien Autrusseau <autrusseau.damien@gmail.com>
