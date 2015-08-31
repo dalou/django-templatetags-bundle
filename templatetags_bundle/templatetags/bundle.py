@@ -110,8 +110,9 @@ def formatted_float(value, currency='EUR'):
 
 
 
-
-
+@register.filter
+def classname(obj):
+    return obj.__class__.__name__
 
 
 
