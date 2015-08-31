@@ -62,6 +62,6 @@ setup(
     install_requires=[
         'django >= 1.8.4, <= 1.9',
         'babel >= 2.0',
-        'classytags >= 0.3.0'
+        'django-classytags >= 0.3.0'
     ],
 )
