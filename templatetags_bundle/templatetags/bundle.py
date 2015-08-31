@@ -13,6 +13,10 @@ from django.utils.timezone import now as django_now
 from django.utils.translation import to_locale, get_language
 from django.template.defaultfilters import floatformat
 from django.forms.utils import flatatt
+from django.http import QueryDict
+
+from classytags.core import Tag, Options
+from classytags.arguments import MultiKeywordArgument, MultiValueArgument
 
 from babel import Locale
 from babel.numbers import format_number, format_decimal, format_percent
