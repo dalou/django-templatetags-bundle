@@ -196,14 +196,12 @@ def truncate_filename(value, args, maxchars=20, endchars='[...]'):
     else:
         return value
 
-@register.filter
-def absolute_url(url):
-    return canonical_url(url)
 
-@register.filter('canonical')
-def _get_canonical_url(url):
-    return canonical_url(url, protocol="http:")
-
+@register.filter('external_url')
+def external_url(url):
+    if not url.startswith('http://') or not url.startswith('https://'):
+        return "http://%s" % url
+    return url
 
 @register.filter
 def admin_url_action(obj, action='change'):
