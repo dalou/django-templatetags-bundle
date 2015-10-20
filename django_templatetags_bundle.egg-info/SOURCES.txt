@@ -11,8 +11,3 @@ django_templatetags_bundle.egg-info/top_level.txt
 templatetags_bundle/__init__.py
 templatetags_bundle/templatetags/__init__.py
 templatetags_bundle/templatetags/bundle.py
-templatetags_bundle/templatetags/format_filters.py
-templatetags_bundle/templatetags/introspection_filters.py
-templatetags_bundle/templatetags/my_filters.py
-templatetags_bundle/templatetags/nav.py
-templatetags_bundle/templatetags/url_tags.py

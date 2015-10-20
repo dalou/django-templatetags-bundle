@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: django-templatetags-bundle
-Version: 1.0.0
+Version: 1.0.1
 Summary: Django templatetags extra bundles
 Home-page: http://github.com/dalou/django-templatetags-bundle
 Author: Autrusseau Damien
