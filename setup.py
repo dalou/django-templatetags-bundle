@@ -62,6 +62,7 @@ setup(
     install_requires=[
         'django >= 1.8.4, <= 1.9',
         'babel >= 2.0',
+        'bleach >= 1.4.2',
         'django-classy-tags == 0.5.1'
     ],
 )

@@ -3,6 +3,7 @@
 import json
 import datetime
 import re
+import bleach
 
 from django import template
 from django import forms
@@ -150,6 +151,9 @@ def file_sizify(value):
     return sizify(file)
 
 
+@register.filter
+def sanitize(html):
+    return bleach.clean(html)
 
 @register.filter
 def divideby(value, arg): return int(arg) / int(value)
